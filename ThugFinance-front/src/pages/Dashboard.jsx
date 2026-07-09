@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Chart from '../components/Chart'
 import './Dashboard.css'
 
 function Dashboard({ token }){
@@ -190,7 +191,7 @@ function Dashboard({ token }){
                 </div>
 
                 <div>
-                    
+                    <Chart transactions={transactions} />
                 </div>
             </div>
         </div>
