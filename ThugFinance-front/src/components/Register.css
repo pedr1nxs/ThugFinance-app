@@ -1,0 +1,46 @@
+.nameInpt{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    margin-right: 8px;
+}
+.nameInpt:hover{
+    background-color: rgb(238, 235, 235);
+}
+
+.emailInpt{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    margin-right: 8px;
+}
+.emailInpt:hover{
+    background-color: rgb(238, 235, 235);
+}
+
+.passwordInpt{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+.passwordInpt:hover{
+    background-color: rgb(238, 235, 235);
+}
+
+.registerBtn{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    margin-top: 8px;
+    background-image: linear-gradient(to left, rgb(46, 167, 100), rgb(17, 73, 45));
+}
+.registerBtn:hover{
+    background-image: linear-gradient(to left, rgb(32, 78, 50), rgb(8, 94, 51));
+}

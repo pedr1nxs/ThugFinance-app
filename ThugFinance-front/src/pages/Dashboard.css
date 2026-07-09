@@ -1,0 +1,209 @@
+@keyframes showCards {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.card {
+    background-color: rgb(46, 45, 45);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid rgb(185, 182, 182);
+    animation: showCards 1s ease;
+}
+
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.value{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: black;
+    color: rgb(223, 216, 216);
+}
+
+.logoutBtn{
+    padding: 7px;
+    border: none;
+    background-color: red;
+    width: 50px;
+    border-radius: 8px;
+}
+.logoutBtn:hover{
+    background-color: rgb(134, 13, 13);
+}
+
+.bankballance{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    width: 250px;
+    max-width: 100%;
+    grid-template-columns: 100px 90px;
+    margin: auto;
+    margin-top: 8px;
+    gap: 20px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.card_description{
+    background-color: rgb(63, 62, 62);
+    padding: 5px;
+    border-radius: 17px;
+    color: rgb(214, 210, 210);
+}
+
+.card_type{
+    
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.card_createTransaction{
+    background-color: rgb(56, 55, 55);
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 1px 2px 9px rgb(61, 60, 60);
+}
+
+.valueTransactionInpt{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 9px rgb(104, 103, 103);
+}
+.valueTransactionInpt:hover{
+    background-color: rgb(36, 35, 35);
+}
+.valueTransactionInpt:focus{
+    outline: none;
+}
+
+.descriptionTransactionInpt{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 9px rgb(104, 103, 103);
+}
+.descriptionTransactionInpt:hover{
+    background-color: rgb(36, 35, 35);
+}
+.descriptionTransactionInpt:focus{
+    outline: none;
+}
+
+.date_transactionInpt{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 8px;
+}
+.date_transactionInpt:hover{
+    background-color: rgb(226, 221, 221);
+}
+.date_transactionInpt[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.selectCategoryTransaction{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    margin-left: 7px;
+}
+.selectCategoryTransaction:hover{
+    background-color: rgb(226, 221, 221);
+}
+
+.createTransactionBtn{
+    background-image: linear-gradient(to right, rgb(61, 126, 223), rgb(68, 117, 156));
+    border: none;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    margin-top: 9px;
+    border-radius: 8px;
+}
+.createTransactionBtn:hover{
+    background-image: linear-gradient(to right, rgb(39, 60, 92), rgb(33, 81, 119));
+}
+
+.card_createCategory{
+    background-color: rgb(56, 55, 55);
+    padding: 20px;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 9px rgb(61, 60, 60);
+}
+
+.nameCategoryInpt{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 9px rgb(104, 103, 103);
+}
+.nameCategoryInpt:hover{
+    background-color: rgb(36, 35, 35);
+}
+.nameCategoryInpt:focus{
+    outline: none;
+}
+
+.selectTypeCategory{
+    padding: 6px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 253, 253);
+    color: black;
+}
+.selectTypeCategory:hover{
+    background-color: rgb(226, 221, 221);
+}
+
+.createCategoryBtn{
+    background-image: linear-gradient(to right, rgb(131, 62, 196), rgb(138, 93, 167));
+    border: none;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    margin-top: 9px;
+    border-radius: 8px;
+}
+.createCategoryBtn:hover{
+    background-image: linear-gradient(to right, rgb(125, 84, 163), rgb(72, 45, 90));
+}
+
+.container{
+    display: grid;
+    gap: 15px;
+}
+
+.BtnshowTransactions{
+    background-color: rgb(28, 121, 70);
+    border: none;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-top: 9px;
+    border-radius: 8px;
+}

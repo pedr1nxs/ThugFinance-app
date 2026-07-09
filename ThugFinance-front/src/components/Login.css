@@ -1,0 +1,33 @@
+.emailInpt{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+.emailInpt:hover{
+    background-color: rgb(238, 235, 235);
+}
+
+.passwordInpt{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+.passwordInpt:hover{
+    background-color: rgb(238, 235, 235);
+}
+
+.loginBtn{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    width: 70px;
+    margin-top: 8px;
+    background-image: linear-gradient(to left, rgb(219, 142, 235), rgb(107, 26, 117));
+}
+.loginBtn:hover{
+    background-image: linear-gradient(to left, rgb(90, 48, 99), rgb(107, 26, 117));
+}
