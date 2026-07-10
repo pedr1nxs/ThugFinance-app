@@ -8,7 +8,7 @@ function Dashboard({ token }){
 
     useEffect(() => {
         const fetchTransactions = async () => {
-            const res = await fetch('http://localhost:3000/transactions', {
+            const res = await fetch('https://thugfinance-app.onrender.com/transactions', {
                 method: 'GET',
                 headers: {
                     Authorization: `Bearer ${token}`
@@ -41,7 +41,7 @@ function Dashboard({ token }){
     const [ date_transaction, setDate_transaction ] = useState('')
  
     const createTransaction = async () => {
-        const res = await fetch('http://localhost:3000/transactions', {
+        const res = await fetch('https://thugfinance-app.onrender.com/transactions', {
             method: 'POST',
             headers: {
                 'Content-Type' : 'application/json',
@@ -62,7 +62,7 @@ function Dashboard({ token }){
     const [ typeCategory, setTypeCategory ] = useState('')
 
     const createCategory = async () => {
-        const res = await fetch('http://localhost:3000/categories', {
+        const res = await fetch('https://thugfinance-app.onrender.com/categories', {
             method: 'POST',
             headers: {
                 'Content-Type' : 'application/json',
@@ -81,7 +81,7 @@ function Dashboard({ token }){
 
     useEffect(() => {
         const fetchCategory = async () => {
-            const res = await fetch('http://localhost:3000/categories', {
+            const res = await fetch('https://thugfinance-app.onrender.com/categories', {
                 method: 'GET',
                 headers: {
                     Authorization: `Bearer ${token}`
