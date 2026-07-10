@@ -18,5 +18,12 @@ Sistema de controle Financeiro (ainda vou fazer)
 
 ## Como rodar
 
+#Frontend
+
 npm install
 npm run dev
+
+#Backend
+
+npm install
+node server.js
