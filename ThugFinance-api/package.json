@@ -1,6 +1,9 @@
 {
   "name": "thugfinance-v1.0",
   "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,4 +21,5 @@
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3"
   }
+  
 }
