@@ -49,6 +49,10 @@ npm install
 
 npm run dev
 
+## Demo
+
+[Acesse o app aqui](https://thugfinance-app.vercel.app/)
+
 ## Preview
 
 ### Register
